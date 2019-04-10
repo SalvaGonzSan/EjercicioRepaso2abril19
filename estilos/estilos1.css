@@ -4,17 +4,26 @@
   border: 1px solid blue;
   box-sizing: border-box;
   display: grid;
+  grid-template-columns: 20% auto 20%;
   margin: 0 auto;
 }
 .contenedor header {
-  width: 100%;
+  grid-column: 1/4;
   min-height: 15%;
   border: 1px solid orange;
+  box-sizing: border-box;
 }
-.contenedor aside {
-  width: 20%;
+.contenedor .aside1 {
+  grid-column: 1/2;
   min-height: 70%;
   border: 1px solid red;
+  box-sizing: border-box;
+}
+.contenedor main {
+  grid-column: 2/3;
+  min-height: 70%;
+  border: 1px solid purple;
+  box-sizing: border-box;
 }
 
 /*# sourceMappingURL=estilos1.css.map */
