@@ -55,7 +55,7 @@
     box-sizing: border-box;
   }
 }
-@media (max-width: 600px) and (orientation: portrait) {
+@media (max-width: 600px) {
   .contenedor header {
     grid-column: 1/4;
     min-height: 15vh;

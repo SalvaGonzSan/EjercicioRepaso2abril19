@@ -52,7 +52,7 @@
             @include bordesgenerales();
         }
     }
-    @media (max-width: 600px) and (orientation:portrait){
+    @media (max-width: 600px){
         header{
             grid-column: 1 / 4;
             min-height: 15vh;
